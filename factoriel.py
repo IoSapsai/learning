@@ -1,0 +1,13 @@
+def problem(n):
+
+    if n % 2 != 0:
+        print ("Weird")
+    elif n>= 2 and n<=5 and n==0:
+        print ("Not Weird")
+    elif n>=6 and n <= 20 and n==0:
+        print("Weird")
+    elif n>20 and n==0:
+        print("Not weird")
+
+problem(6)
+print(problem(6))
